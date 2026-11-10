@@ -1,8 +1,8 @@
 # StreamenEngine
 
-An FFmpeg 9-based media player engine for Apple platforms, designed from scratch for stability on long-running IPTV streams. Built for [Streamen](https://github.com/bilipp/Lume).
+An FFmpeg 9-based media player engine for Apple platforms, designed from scratch for stability on long-running IPTV streams. Built for [Streamen](https://github.com/dustintinsley/Streamen).
 
-[![CI](https://github.com/bilipp/LumeEngine/actions/workflows/ci.yml/badge.svg)](https://github.com/bilipp/LumeEngine/actions/workflows/ci.yml)
+[![CI](https://github.com/dustintinsley/StreamenEngine/actions/workflows/ci.yml/badge.svg)](https://github.com/dustintinsley/StreamenEngine/actions/workflows/ci.yml)
 [![Platforms](https://img.shields.io/badge/platforms-iOS%2018%20·%20tvOS%2018%20·%20macOS%2015%20·%20visionOS%202-1f1f2e?labelColor=1f1f2e)](#installation)
 [![Swift](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white&labelColor=1f1f2e)](https://swift.org)
 [![FFmpeg](https://img.shields.io/badge/FFmpeg-9.0.1%20LGPL-007808?labelColor=1f1f2e)](THIRD-PARTY-NOTICES.md)
@@ -32,7 +32,7 @@ Add the package to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/bilipp/LumeEngine.git", from: "0.1.3")
+    .package(url: "https://github.com/dustintinsley/StreamenEngine.git", from: "0.1.3")
 ],
 targets: [
     .target(name: "YourApp", dependencies: ["StreamenEngine"])
@@ -40,7 +40,7 @@ targets: [
 ```
 
 Or in Xcode: **File ▸ Add Package Dependencies…**, paste
-`https://github.com/bilipp/LumeEngine.git`, and add the `StreamenEngine` library to your
+`https://github.com/dustintinsley/StreamenEngine.git`, and add the `StreamenEngine` library to your
 app target. Xcode embeds and signs it for you; if you wire it up by hand, make sure
 `StreamenEngine` is in **Embed Frameworks** with *Embed & Sign* — the product is a dynamic
 library ([on purpose](#license)).

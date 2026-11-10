@@ -39,7 +39,7 @@ is not tolerated.
 
 ## Ways to contribute
 
-- **Report a bug** — open a [GitHub issue](https://github.com/bilipp/LumeEngine/issues)
+- **Report a bug** — open a [GitHub issue](https://github.com/dustintinsley/StreamenEngine/issues)
   with reproduction steps (see [Reporting bugs](#reporting-bugs)).
 - **Propose a feature** — open an issue to discuss it *before* you start coding,
   especially if it touches the data plane. The roadmap is PLAN.md §9.
@@ -63,7 +63,7 @@ is not tolerated.
 ### First-time setup
 
 ```bash
-git clone https://github.com/bilipp/LumeEngine.git
+git clone https://github.com/dustintinsley/StreamenEngine.git
 cd StreamenEngine
 swift build
 swift test
@@ -243,7 +243,7 @@ Overhaul seek, buffering, and supervision for real-world IPTV VOD
 
 ## Reporting bugs
 
-Use the [bug report template](https://github.com/bilipp/LumeEngine/issues/new/choose).
+Use the [bug report template](https://github.com/dustintinsley/StreamenEngine/issues/new/choose).
 The most useful report includes:
 
 - The stream's **properties**, never its URL: container, video/audio codecs, whether it

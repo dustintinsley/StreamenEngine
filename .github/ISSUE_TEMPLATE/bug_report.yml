@@ -17,13 +17,13 @@ body:
     attributes:
       label: Preflight
       options:
-        - label: I searched [existing issues](https://github.com/bilipp/LumeEngine/issues) and didn't find a duplicate.
+        - label: I searched [existing issues](https://github.com/dustintinsley/StreamenEngine/issues) and didn't find a duplicate.
           required: true
         - label: I'm on the latest commit of `main`.
           required: false
         - label: My report contains no credentials, playlist URLs, or stream links.
           required: true
-        - label: This is not a security vulnerability (those go to [SECURITY.md](https://github.com/bilipp/LumeEngine/blob/main/SECURITY.md)).
+        - label: This is not a security vulnerability (those go to [SECURITY.md](https://github.com/dustintinsley/StreamenEngine/blob/main/SECURITY.md)).
           required: true
   - type: textarea
     id: description

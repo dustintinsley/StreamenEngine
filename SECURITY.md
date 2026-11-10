@@ -9,7 +9,7 @@ downstream apps at risk before a fix is available.
 Use one of the following:
 
 - **GitHub private advisory** (preferred): open a report at
-  <https://github.com/bilipp/LumeEngine/security/advisories/new>
+  <https://github.com/dustintinsley/StreamenEngine/security/advisories/new>
 - **Email**: p.bischoff@innoloft.com
 
 Please include, as far as you can:
